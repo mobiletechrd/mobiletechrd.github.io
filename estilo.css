@@ -5,33 +5,48 @@
 }
 
 body {
-    background-color: #e5d907;
-    background-image: linear-gradient(62deg, #e5d907 0%, #F7CE68 100%);
+    background-image: linear-gradient(0deg, black, white, gold, black);
 }
 
-.link-bio {
+.img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 90%;
-    margin: 40px auto;
+    width: 40px auto;
     gap: 20px;
 }
 
-.link-bio img {
+.logo {
     width: 140px;
     height: 150px;
     margin-right: 2ch;
 }
 
-.link-bio h1 {
-    font-size: 30px;
-    margin-right: 1cap;
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40px auto;
+    gap: 20px;
 }
 
-.link {
-    width: 80%;
-    margin-left: 10px;
+.cabecera {
+    padding: 15px;
+    margin-top: -3vh;
+    font-size: 30px;
+    margin-right: 0.1ch;
+}
+
+.cabecera2 {
+    margin-top: -5vh;
+    width: 15px;
+    margin-right: 14ch;
+}
+
+
+button.link {
+    width: 35%;
+    margin-left: 32%;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -42,28 +57,25 @@ body {
     cursor: pointer;
 }
 
-.link-button ul {
-    margin-left: 10%;
-}
-
-link:hover {
-    background-color: rgb(225, 245, 178);
-    transform: scale(1.05);
-    transition-duration: 1s;
-}
-
-p {
+.derechos {
     text-align: center;
-    color: black;
+    color: gold;
     font-size: 15px;
     margin-top: 3vh;
-    margin-right: 2cap;
+    margin-right: -1%;
+}
+
+.email {
+    text-align: center;
+    font-size: 15px;
+    margin-right: -1vh;
 }
 
 footer a {
-    text-align: center;
-    color: red;
-    font-size: 15px;
-    margin-top: 3vh;
-    margin-right: 2cap;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: cornflowerblue;
 }
